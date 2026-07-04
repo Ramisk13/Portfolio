@@ -1,0 +1,6 @@
+[
+  { "name": "Email", "url": "mailto:ramiiskaff@gmail.com", "icon": "mail" },
+  { "name": "Phone", "url": "tel:+96170235369", "icon": "phone" },
+  { "name": "LinkedIn", "url": "https://www.linkedin.com/in/rami-eskaf-8948a5253", "icon": "linkedin" },
+  { "name": "GitHub", "url": "https://github.com/Ramisk13", "icon": "github" }
+]

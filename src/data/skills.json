@@ -1,0 +1,18 @@
+[
+  {
+    "category": "Languages & Frameworks",
+    "items": ["Java (OOP)", "Spring Boot", "PHP", "Laravel", "JavaScript", "React.js", "React Native", "C++", "SQL"]
+  },
+  {
+    "category": "AI & Machine Learning",
+    "items": ["Python", "Scikit-learn", "XGBoost", "Pandas", "Claude AI"]
+  },
+  {
+    "category": "Tools & Platforms",
+    "items": ["Git", "GitHub", "Azure DevOps", "WordPress", "RESTful APIs", "Figma"]
+  },
+  {
+    "category": "Core Strengths",
+    "items": ["Problem Solving", "Data Analysis", "Teamwork", "Critical Thinking"]
+  }
+]

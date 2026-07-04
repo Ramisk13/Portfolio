@@ -1,0 +1,130 @@
+[
+  {
+    "slug": "fixdesk",
+    "title": "FixDesk",
+    "summary": "A mobile-first maintenance reporting platform — snap a photo of a broken thing, and it's instantly routed to the right team.",
+    "description": "FixDesk lets anyone in an organization report a facility issue by taking a photo and a short description, which is then automatically routed to the right department. Organization admins manage departments and staff, department admins triage incoming reports, and maintenance teams track each request from submission through to resolution.",
+    "role": "Full-Stack Developer",
+    "year": "2025",
+    "tech": [
+      "React Native",
+      "Expo",
+      "Laravel",
+      "MySQL",
+      "Laravel Sanctum",
+      "RESTful APIs"
+    ],
+    "problem": "Reporting a broken or unsafe facility issue is usually slow and inconsistent — messages get lost in group chats or emails, with no photo evidence, no clear owner, and no way to track progress until it's fixed.",
+    "solution": "Built FixDesk end-to-end: a Laravel REST API modeling organizations, departments, and role-based permissions (owner, department admin, maintenance team, member), and a React Native app where anyone can snap a photo, describe the issue, and submit it straight to the right department. Requests move through a full lifecycle — new, pending, in-progress, done — with dedicated dashboards per role to triage, assign, and resolve them.",
+    "results": [
+      "Photo-based reporting flow using the device camera, from capture to submission in a few taps",
+      "Role-based access across four user types: organization owner, department admin, maintenance team, and member",
+      "Full request lifecycle tracking from submission to resolution, with dedicated dashboards per role"
+    ],
+    "liveUrl": "",
+    "repoUrl": "",
+    "image": "/projects/fixdesk.svg",
+    "featured": true
+  },
+  {
+    "slug": "delivery-management-system",
+    "title": "Delivery Management System",
+    "summary": "Real-time logistics platform with live GPS tracking, in-app chat, and integrated payments.",
+    "description": "A full-stack delivery and logistics management system built to handle real-time order tracking, customer communication, and payments in one platform.",
+    "role": "Full-Stack Developer",
+    "year": "2025",
+    "tech": [
+      "Laravel",
+      "MySQL",
+      "Bootstrap",
+      "Firebase",
+      "Google Maps API",
+      "Stripe",
+      "Coinbase API"
+    ],
+    "problem": "Delivery businesses often juggle disconnected tools for tracking, communication, and payments, creating friction for both staff and customers.",
+    "solution": "Built a unified Laravel platform integrating Google Maps for live GPS tracking, Firebase for real-time chat, and both Stripe and Coinbase for flexible payment options.",
+    "results": [
+      "Real-time GPS order tracking via Google Maps API",
+      "Live in-app chat powered by Firebase",
+      "Integrated card and crypto payments (Stripe, Coinbase)"
+    ],
+    "liveUrl": "",
+    "repoUrl": "",
+    "image": "/projects/delivery-management-system.svg",
+    "featured": true
+  },
+  {
+    "slug": "medical-appointment-website",
+    "title": "Medical Appointment Website",
+    "summary": "Full-stack medical appointment platform with practitioner search and secure role-based access.",
+    "description": "A medical appointment booking platform connecting patients with practitioners, with a responsive search dashboard and secure authentication.",
+    "role": "Full-Stack Developer",
+    "year": "2025",
+    "tech": [
+      "React",
+      "Laravel",
+      "MySQL"
+    ],
+    "problem": "Patients need a fast, reliable way to find and book the right practitioner, while the platform needs to keep patient and practitioner roles and data properly separated and secure.",
+    "solution": "Built a React front-end backed by a Laravel/MySQL API, with a responsive practitioner search dashboard and secure role-based authentication separating patient and practitioner access.",
+    "results": [
+      "Responsive practitioner search dashboard",
+      "Secure role-based authentication for patients vs. practitioners",
+      "Full-stack integration between React and Laravel/MySQL"
+    ],
+    "liveUrl": "",
+    "repoUrl": "",
+    "image": "/projects/medical-appointment-website.svg",
+    "featured": true
+  },
+  {
+    "slug": "valorant-match-prediction",
+    "title": "Valorant Match Prediction & Playstyle Analysis",
+    "summary": "Predictive machine learning models analyzing competitive Valorant match data and player playstyles.",
+    "description": "Processed real match logs pulled from the Riot Games API to build and evaluate predictive models for match outcomes, plus unsupervised clustering to uncover distinct player playstyles.",
+    "role": "ML Developer",
+    "year": "2025",
+    "tech": [
+      "Python",
+      "Scikit-learn",
+      "XGBoost",
+      "Pandas",
+      "Riot API"
+    ],
+    "problem": "Competitive match outcomes and playstyle patterns in Valorant are hard to quantify from raw match logs alone — there was no existing tool to translate that data into predictive or comparative insight.",
+    "solution": "Built supervised models (Random Forest, XGBoost) to predict match outcomes, and applied unsupervised techniques (PCA, K-Means, DBSCAN) to cluster players into distinct tactical playstyles and flag outliers.",
+    "results": [
+      "Processed and modeled 1,560 match logs end-to-end",
+      "Reached up to 51.7% predictive accuracy with XGBoost/Random Forest",
+      "Surfaced distinct playstyle clusters using PCA, K-Means, and DBSCAN"
+    ],
+    "liveUrl": "",
+    "repoUrl": "",
+    "image": "/projects/valorant-match-prediction.svg",
+    "featured": true
+  },
+  {
+    "slug": "port-management-system",
+    "title": "Port Management System",
+    "summary": "Desktop scheduling application for port manifest tracking and staff shift management.",
+    "description": "A desktop application built to help manage port operations — tracking manifests and scheduling staff shifts — designed around core object-oriented principles.",
+    "role": "Software Developer",
+    "year": "2023",
+    "tech": [
+      "Java",
+      "OOP"
+    ],
+    "problem": "Coordinating manifest tracking and staff shift scheduling manually is error-prone and time-consuming for port operations.",
+    "solution": "Engineered a desktop scheduling application in Java, applying core OOP principles to model manifests, shifts, and staff cleanly and maintainably.",
+    "results": [
+      "Automated manifest tracking",
+      "Structured staff shift scheduling",
+      "Clean, maintainable OOP-based architecture"
+    ],
+    "liveUrl": "",
+    "repoUrl": "",
+    "image": "/projects/port-management-system.svg",
+    "featured": false
+  }
+]

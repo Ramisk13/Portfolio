@@ -1,0 +1,29 @@
+[
+  {
+    "role": "Software Engineer (Developer)",
+    "company": "ITXI",
+    "companyUrl": "",
+    "period": "June 2025 — Present",
+    "location": "Beirut, Lebanon",
+    "description": "Design, develop, and maintain software solutions, using frontend and full-stack skills to deliver responsive, production-grade user experiences.",
+    "highlights": [
+      "Incorporate Claude AI tools to optimize code quality, streamline debugging, and accelerate the development lifecycle",
+      "Build and customize WordPress-based web applications for enterprise deployment",
+      "Collaborate on full-stack assignments, managing secure data logistics and improving application workflows"
+    ],
+    "tech": ["WordPress", "JavaScript", "PHP", "Claude AI", "RESTful APIs"]
+  },
+  {
+    "role": "Web Development — Laravel Intern (Remote)",
+    "company": "Xpertbot",
+    "companyUrl": "",
+    "period": "Dec 2023 — May 2024",
+    "location": "Estonia (Remote)",
+    "description": "Built backend features for a remote team using Laravel's MVC architecture, focused on scalable, secure APIs.",
+    "highlights": [
+      "Built scalable RESTful APIs using Laravel MVC architecture with token-based authentication",
+      "Collaborated in an agile environment using Git and GitHub for repository version control"
+    ],
+    "tech": ["Laravel", "PHP", "MySQL", "Git", "GitHub"]
+  }
+]

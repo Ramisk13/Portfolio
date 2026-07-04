@@ -1,0 +1,15 @@
+{
+  "name": "Rami Eskaf",
+  "title": "Software Engineer",
+  "roles": [
+    "Software Engineer",
+    "Full-Stack Developer",
+    "Problem Solver",
+    "Product-Minded Engineer",
+    "Detail-Obsessed Builder"
+  ],
+  "tagline": "I design and build fast, polished, production-ready web applications — combining clean architecture with interfaces that feel alive.",
+  "ctaPrimary": { "label": "Start a Project", "href": "#contact" },
+  "ctaSecondary": { "label": "View Work", "href": "#projects" },
+  "location": "Beirut, Lebanon"
+}

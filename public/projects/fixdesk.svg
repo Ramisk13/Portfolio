@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="fd-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="50%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#ff3d81"/>
+    </linearGradient>
+    <radialGradient id="fd-glow" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="fd-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="450" fill="#0f1220"/>
+  <rect width="800" height="450" fill="url(#fd-grid)"/>
+  <rect width="800" height="450" fill="url(#fd-glow)"/>
+
+  <!-- phone frame -->
+  <g transform="translate(260,225)">
+    <rect x="-90" y="-140" width="180" height="280" rx="26" fill="#0a0d14" stroke="#ffffff" stroke-opacity="0.15" stroke-width="3"/>
+    <rect x="-30" y="-128" width="60" height="6" rx="3" fill="#ffffff" opacity="0.15"/>
+
+    <!-- camera viewfinder -->
+    <rect x="-60" y="-95" width="120" height="120" rx="10" fill="none" stroke="url(#fd-grad)" stroke-width="3"/>
+    <path d="M -60 -75 L -60 -95 L -40 -95" fill="none" stroke="url(#fd-grad)" stroke-width="3"/>
+    <path d="M 40 -95 L 60 -95 L 60 -75" fill="none" stroke="url(#fd-grad)" stroke-width="3"/>
+    <path d="M -60 5 L -60 25 L -40 25" fill="none" stroke="url(#fd-grad)" stroke-width="3"/>
+    <path d="M 40 25 L 60 25 L 60 5" fill="none" stroke="url(#fd-grad)" stroke-width="3"/>
+
+    <!-- cracked object icon inside viewfinder -->
+    <g stroke="#ff3d81" stroke-width="4" stroke-linecap="round" fill="none">
+      <path d="M -25 -50 L -5 -15 L -20 -5 L 5 35"/>
+    </g>
+
+    <!-- shutter button -->
+    <circle cx="0" cy="105" r="18" fill="none" stroke="#22d3ee" stroke-width="3"/>
+    <circle cx="0" cy="105" r="9" fill="#22d3ee"/>
+  </g>
+
+  <!-- routing arrow -->
+  <path d="M 380 225 Q 440 225 470 225" fill="none" stroke="url(#fd-grad)" stroke-width="3" stroke-dasharray="8 8"/>
+  <path d="M 462 214 L 480 225 L 462 236" fill="none" stroke="url(#fd-grad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- department ticket card -->
+  <g transform="translate(600,225)">
+    <rect x="-70" y="-90" width="140" height="180" rx="14" fill="#0a0d14" stroke="#ffffff" stroke-opacity="0.12" stroke-width="2.5"/>
+
+    <!-- ticket rows -->
+    <rect x="-46" y="-58" width="92" height="10" rx="4" fill="#ffffff" opacity="0.12"/>
+    <rect x="-46" y="-34" width="60" height="8" rx="4" fill="#ffffff" opacity="0.08"/>
+
+    <!-- status pill: new -->
+    <rect x="-46" y="4" width="66" height="22" rx="11" fill="#8b5cf6" opacity="0.25" stroke="#8b5cf6" stroke-width="1.5"/>
+    <circle cx="-34" cy="15" r="4" fill="#8b5cf6"/>
+
+    <!-- status pill: in progress -->
+    <rect x="-46" y="34" width="88" height="22" rx="11" fill="#22d3ee" opacity="0.2" stroke="#22d3ee" stroke-width="1.5"/>
+    <circle cx="-34" cy="45" r="4" fill="#22d3ee"/>
+
+    <!-- status pill: done -->
+    <rect x="-46" y="64" width="60" height="22" rx="11" fill="#ff3d81" opacity="0.2" stroke="#ff3d81" stroke-width="1.5"/>
+    <path d="M -38 75 L -34 79 L -26 69" fill="none" stroke="#ff3d81" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

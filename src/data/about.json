@@ -1,0 +1,13 @@
+{
+  "heading": "About",
+  "paragraphs": [
+    "I'm a software engineer who enjoys taking a project from a rough idea to a live product — architecture, UI, performance, deployment, all of it. I care about the parts most people skip: the loading state, the error message, the animation that makes an interaction feel intentional instead of accidental.",
+    "I like getting to the core of a problem before writing a single line of code, then building the simplest thing that solves it well — whether that means owning a feature end-to-end alongside a team, or taking a product from idea to launch on my own.",
+    "I hold a Bachelor's in Computer Science from Antonine University and currently work as a Software Engineer at ITXI, building full-stack web applications with Laravel, WordPress, and React. I'm also pursuing a Master's in AI Engineering, and I like personal projects that blend software engineering with applied machine learning — like training predictive models on real competitive gaming data."
+  ],
+  "stats": [
+    { "label": "Years Experience", "value": "1+" },
+    { "label": "Projects Shipped", "value": "5+" },
+    { "label": "Technologies", "value": "20+" }
+  ]
+}
