@@ -3,6 +3,7 @@ import { ArrowUpRight } from 'lucide-react'
 import type { ProjectItem } from '@/types/content'
 import { useTilt } from '@/hooks/useTilt'
 import { fadeUp, viewportOnce } from '@/lib/motion'
+import { assetUrl } from '@/lib/assetUrl'
 
 interface ProjectCardProps {
   project: ProjectItem
@@ -33,7 +34,7 @@ export default function ProjectCard({ project, index, onOpen }: ProjectCardProps
 
         <div
           className="relative h-48 overflow-hidden bg-cover bg-center"
-          style={{ backgroundImage: `url(${project.image})` }}
+          style={{ backgroundImage: `url(${assetUrl(project.image)})` }}
         >
           <div className="absolute inset-0 bg-ink-950/10 transition-opacity group-hover:bg-ink-950/0" />
         </div>

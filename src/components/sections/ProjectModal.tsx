@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { X, ExternalLink, Github } from 'lucide-react'
 import type { ProjectItem } from '@/types/content'
+import { assetUrl } from '@/lib/assetUrl'
 
 interface ProjectModalProps {
   project: ProjectItem | null
@@ -50,7 +51,7 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
 
             <div
               className="flex h-56 items-center justify-center bg-signal-gradient bg-cover bg-center sm:h-64"
-              style={{ backgroundImage: `url(${project.image})` }}
+              style={{ backgroundImage: `url(${assetUrl(project.image)})` }}
             >
               <div className="flex h-full w-full items-end bg-gradient-to-t from-ink-800 via-ink-800/20 to-transparent p-6 sm:p-8">
                 <div>

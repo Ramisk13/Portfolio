@@ -23,7 +23,7 @@
     ],
     "liveUrl": "",
     "repoUrl": "",
-    "image": "/projects/fixdesk.svg",
+    "image": "projects/fixdesk.svg",
     "featured": true
   },
   {
@@ -51,7 +51,7 @@
     ],
     "liveUrl": "",
     "repoUrl": "",
-    "image": "/projects/delivery-management-system.svg",
+    "image": "projects/delivery-management-system.svg",
     "featured": true
   },
   {
@@ -75,7 +75,7 @@
     ],
     "liveUrl": "",
     "repoUrl": "",
-    "image": "/projects/medical-appointment-website.svg",
+    "image": "projects/medical-appointment-website.svg",
     "featured": true
   },
   {
@@ -101,7 +101,7 @@
     ],
     "liveUrl": "",
     "repoUrl": "",
-    "image": "/projects/valorant-match-prediction.svg",
+    "image": "projects/valorant-match-prediction.svg",
     "featured": true
   },
   {
@@ -124,7 +124,7 @@
     ],
     "liveUrl": "",
     "repoUrl": "",
-    "image": "/projects/port-management-system.svg",
+    "image": "projects/port-management-system.svg",
     "featured": false
   }
 ]

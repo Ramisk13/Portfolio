@@ -5,6 +5,7 @@ import socialData from '@/data/social.json'
 import type { ContactData, SocialLink } from '@/types/content'
 import MagneticButton from '@/components/ui/MagneticButton'
 import { fadeUp, staggerContainer, viewportOnce } from '@/lib/motion'
+import { assetUrl } from '@/lib/assetUrl'
 
 const data = contactData as ContactData
 const links = (socialData as SocialLink[]).filter((l) => l.icon === 'linkedin' || l.icon === 'github')
@@ -72,7 +73,7 @@ export default function Contact() {
           })}
 
           <a
-            href={data.resumeUrl}
+            href={assetUrl(data.resumeUrl)}
             download
             data-cursor-hover
             className="inline-flex items-center gap-2 rounded-full border border-white/10 px-5 py-2.5 text-sm text-white/70 transition-colors hover:border-signal-400/40 hover:text-white"
