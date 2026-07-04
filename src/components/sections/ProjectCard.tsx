@@ -24,22 +24,22 @@ export default function ProjectCard({ project, index, onOpen }: ProjectCardProps
       custom={index}
       onClick={() => onOpen(project.slug)}
       data-cursor-hover
-      className="cursor-pointer"
+      className="h-full cursor-pointer"
     >
       <div
         ref={tiltRef}
-        className="group relative overflow-hidden rounded-2xl border border-white/10 bg-ink-800/60 will-change-transform"
+        className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-white/10 bg-ink-800/60 will-change-transform"
       >
         <div data-tilt-glow className="pointer-events-none absolute inset-0 z-10 transition-all duration-300" />
 
         <div
-          className="relative h-48 overflow-hidden bg-cover bg-center"
+          className="relative h-48 shrink-0 overflow-hidden bg-cover bg-center"
           style={{ backgroundImage: `url(${assetUrl(project.image)})` }}
         >
           <div className="absolute inset-0 bg-ink-950/10 transition-opacity group-hover:bg-ink-950/0" />
         </div>
 
-        <div className="relative z-10 p-6">
+        <div className="relative z-10 flex flex-1 flex-col p-6">
           <div className="mb-2 flex items-start justify-between gap-3">
             <h3 className="font-display text-xl font-semibold text-white">{project.title}</h3>
             <ArrowUpRight
@@ -49,7 +49,7 @@ export default function ProjectCard({ project, index, onOpen }: ProjectCardProps
           </div>
           <p className="text-sm leading-relaxed text-white/60">{project.summary}</p>
 
-          <div className="mt-4 flex flex-wrap gap-2">
+          <div className="mt-auto flex flex-wrap gap-2 pt-4">
             {project.tech.slice(0, 4).map((t) => (
               <span
                 key={t}
